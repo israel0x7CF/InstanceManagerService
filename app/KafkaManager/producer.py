@@ -14,3 +14,4 @@ async def create_response(data:InstanceCreationResponse):
         print(e)
     finally:
        await producer.stop()
+    pass

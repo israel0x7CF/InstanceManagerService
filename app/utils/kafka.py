@@ -4,7 +4,7 @@ import os
 
 from app.KafkaManager.producer import create_response
 from app.schema.instance import CreateInstanceMsg
-from app.services.create_container import ContainerManagementService
+
 
 
 from aiokafka import AIOKafkaProducer, AIOKafkaConsumer
